@@ -8,29 +8,26 @@
 </head>
 <body>
 
-   <nav>
-    <div class="logo"> Devendra</div>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Devendra</div>
     <ul class="nav-links">
-      <li><a href="./index.html">Home</a></li>
-      <li><a href="./projects.html">projects</a></li>
-      <li><a href="./skills.html">skills</a></li>
-      <li><a href="./contact.html">contact</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
-    <!-- for hamburger icon -->
-      <div class="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-   </nav>
+  </nav>
 
-  <section class="hero">
-    <div class="hero-left" >
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-left">
       <h1>Building things that work, one project at a time.</h1>
       <p>I'm a BSc (Hons) Computing student at Islington College, focused on web development and software development.</p>
       <div class="hero-buttons">
-        <a href="./projects.html" class="btn">View my projects</a>
-        <a href="./contact.html" class="btn btn-secondary">Get in Touch</a>
+        <a href="#projects" class="btn">View my projects</a>
+        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
       </div>
       <div class="hero-stats">
         <div><strong>3+</strong>PROJECTS</div>
@@ -38,30 +35,62 @@
         <div><strong>2yrs</strong>LEARNING</div>
       </div>
     </div>
-
     <div class="hero-right">
       <div class="profile-card">
         <div class="profile-initials">DK</div>
         <h2>Devendra Kandel</h2>
         <p>Aspiring Developer</p>
         <ul>
-          <li><strong>Studying:</strong>Islington College</li>
-          <li><strong>Degree:</strong>BSc Hons Computing</li>
-          <li><strong>Focus:</strong>Web and Software Development</li>
-          <li><strong>Tools:</strong>Git & GitHub , VS Code </li>
+          <li><strong>Studying:</strong> Islington College</li>
+          <li><strong>Degree:</strong> BSc Hons Computing</li>
+          <li><strong>Focus:</strong> Web and Software Development</li>
+          <li><strong>Tools:</strong> Git & GitHub, VS Code</li>
         </ul>
       </div>
     </div>
   </section>
 
-  <main>
-    <section>
-      <h2>About Me</h2>
-      
-      <p>My name is Devendra Kandel.Now i am currently studying in Islington College on BSc Hons Computing.</p>
-    </section>
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-left">
+      <h2>ABOUT - Who I Am</h2>
+      <p>My Name is <strong>Devendra Kandel</strong>, currently studying <strong>BSc (Hons) Computing</strong> at Islington College.
+      I’m passionate about <strong>web development</strong> and <strong>software development</strong>, and I enjoy creating projects — from small scripts to full front‑end and back‑end applications.</p>
+      <a href="#contact" class="btn">Let's Connect</a>
+    </div>
+    <div class="about-right">
+      <div class="about-box"><h3>Ed<span>Education</span></h3><p>BSc (Hons) Computing, Islington College</p></div>
+      <div class="about-box"><h3>Fo<span>Focus</span></h3><p>Web Development & software development</p></div>
+      <div class="about-box"><h3>To<span>Tools</span></h3><p>Git & GitHub, VS Code</p></div>
+      <div class="about-box"><h3>Go<span>Goals</span></h3><p>Web & software developer</p></div>
+    </div>
+  </section>
 
-  </main>
-<script src="javascipt.js"></script> 
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>Here are some of my projects...</p>
+    <!-- Add your project cards here -->
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <p>Languages, frameworks, tools...</p>
+    <!-- Add your skills list here -->
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Get in touch with me!</p>
+    <ul>
+      <li>Email: <a href="mailto:devendrakandel9@email.com">devendrakandelofficial@email.com</a></li>
+      <li>GitHub: <a href="https://github.com/devendrakandel" target="_blank">github.com/devendrakandel</a></li>
+      <li>LinkedIn: <a href="https://linkedin.com/in/devendra-kandel-a0620737b"
+          target="_blank">linkedin.com/in/devendra-kandel</a></li>
+    </ul>
+  </section>
+
 </body>
 </html>
